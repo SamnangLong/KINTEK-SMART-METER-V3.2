@@ -3,8 +3,8 @@ var connection_status= false;
 function BtnConnect(){
   
     clientID = document.getElementById("box_clientID").value;
-    host = 'blithesome-chiropractor.cloudmqtt.com';
-    port = 443;
+    host = 'he1bb7e5.ala.dedicated.aws.emqxcloud.com';
+    port = 8083;
 
     // Create a client instance
     // client = new Paho.MQTT.Client('e8f424ec.emqx.cloud', 8083, "test");
@@ -20,8 +20,8 @@ function BtnConnect(){
     // onFailure: onFailure,
     useSSL: true,
 
-    userName: 'rwufzabs',
-    password: 'kVZNw5Tuj6e5',
+    userName: 'AHKIRA',
+    password: 'Kiminarikuzaahkir4',
     mqttVersion:4
 });
 }
